@@ -1,0 +1,16 @@
+[10-Jul-2026 06:26:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function h() in /home4/crbcl90e/public_html/jayaplus_uis/cp/settings/youtube-live.php:46
+Stack trace:
+#0 {main}
+  thrown in /home4/crbcl90e/public_html/jayaplus_uis/cp/settings/youtube-live.php on line 46
+[10-Jul-2026 06:28:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function h() in /home4/crbcl90e/public_html/jayaplus_uis/cp/settings/youtube-live.php:46
+Stack trace:
+#0 {main}
+  thrown in /home4/crbcl90e/public_html/jayaplus_uis/cp/settings/youtube-live.php on line 46
+[10-Jul-2026 06:29:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function h() in /home4/crbcl90e/public_html/jayaplus_uis/cp/settings/youtube-live.php:46
+Stack trace:
+#0 {main}
+  thrown in /home4/crbcl90e/public_html/jayaplus_uis/cp/settings/youtube-live.php on line 46
+[10-Jul-2026 06:33:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function h() in /home4/crbcl90e/public_html/jayaplus_uis/cp/settings/youtube-live.php:48
+Stack trace:
+#0 {main}
+  thrown in /home4/crbcl90e/public_html/jayaplus_uis/cp/settings/youtube-live.php on line 48

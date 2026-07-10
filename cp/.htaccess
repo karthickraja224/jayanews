@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteBase /jayaplus_uis/cp/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

@@ -1,0 +1,45 @@
+Options -MultiViews
+RewriteEngine On
+
+# Pretty URLs. Every rule below maps to a query-string URL that already
+# works on its own — so if your host doesn't support mod_rewrite, just
+# delete this file (or set PRETTY_URLS to false in config/constants.php)
+# and the site keeps working with ?slug=... links.
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^category/([^/]+)/([^/]+)/?$ category.php?slug=$1&sub=$2 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^category/([^/]+)/?$ category.php?slug=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^page/([^/]+)/?$ page.php?slug=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^slide/([^/]+)/?$ slide.php?slug=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^search/?$ search.php [L,QSA]
+
+RewriteRule ^robots\.txt$ robots.php [L]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# Catch-all: a single path segment is treated as a news article slug
+# (matches the "site_url + slug" link already used in the admin panel).
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ news.php?slug=$1 [L,QSA]
+
+ErrorDocument 404 /404.php
+
+# Basic hardening
+<FilesMatch "\.(env|sql|log)$">
+  Require all denied
+</FilesMatch>
+
+Options -Indexes

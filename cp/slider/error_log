@@ -1,0 +1,19 @@
+[10-Jul-2026 05:37:42 UTC] PHP Warning:  Undefined variable $recentNews in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slider-edit.php on line 91
+[10-Jul-2026 05:37:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slider-edit.php on line 91
+[10-Jul-2026 05:38:28 UTC] PHP Warning:  Undefined variable $recentNews in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slider-edit.php on line 91
+[10-Jul-2026 05:38:28 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slider-edit.php on line 91
+[10-Jul-2026 06:02:03 UTC] PHP Warning:  require_once(/home4/crbcl90e/public_html/jayaplus_uis/cp/slider/config/database.php): Failed to open stream: No such file or directory in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slide.php on line 3
+[10-Jul-2026 06:02:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/crbcl90e/public_html/jayaplus_uis/cp/slider/config/database.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slide.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slide.php on line 3
+[10-Jul-2026 06:02:06 UTC] PHP Warning:  require_once(/home4/crbcl90e/public_html/jayaplus_uis/cp/slider/config/database.php): Failed to open stream: No such file or directory in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slide.php on line 3
+[10-Jul-2026 06:02:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/crbcl90e/public_html/jayaplus_uis/cp/slider/config/database.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slide.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slide.php on line 3
+[10-Jul-2026 06:02:14 UTC] PHP Warning:  require_once(/home4/crbcl90e/public_html/jayaplus_uis/cp/slider/config/database.php): Failed to open stream: No such file or directory in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slide.php on line 3
+[10-Jul-2026 06:02:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/crbcl90e/public_html/jayaplus_uis/cp/slider/config/database.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slide.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/crbcl90e/public_html/jayaplus_uis/cp/slider/slide.php on line 3

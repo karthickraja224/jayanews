@@ -1,0 +1,6 @@
+[10-Jul-2026 07:13:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'link' in 'field list' in /home4/crbcl90e/public_html/jayaplus_uis/cp/config/database.php:41
+Stack trace:
+#0 /home4/crbcl90e/public_html/jayaplus_uis/cp/config/database.php(41): mysqli->prepare('UPDATE tbl_brea...')
+#1 /home4/crbcl90e/public_html/jayaplus_uis/cp/breaking/breaking-news.php(36): Database->query('UPDATE tbl_brea...', 'ssiii', '\xE0\xAE\xB0\xE0\xAE\xAF\xE0\xAE\xBF\xE0\xAE\xB2\xE0\xAF\x81...', '', 0, 1, 1)
+#2 {main}
+  thrown in /home4/crbcl90e/public_html/jayaplus_uis/cp/config/database.php on line 41
